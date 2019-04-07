@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   roslib
   jsk_recognition_msgs
   tf
-  >message_filters
+  message_filters
 )
 
 ## System dependencies are found with CMake's conventions
