@@ -10,7 +10,7 @@ import tf
 from tf2_msgs.msg import TFMessage
 
 rospy.init_node("tf_restamper")
-tfpublisher= rospy.Publisher("tf", TFMessage)
+tfpublisher= rospy.Publisher("tf", TFMessage, queue_size=10)
 
 
 def tfcallback(tfmessage):
